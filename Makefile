@@ -17,7 +17,7 @@ VERSION=1.7dev
 
 CC=clang
 PACKAGE_BUILD=/usr/bin/pkgbuild
-ARCH_FLAGS=-arch i386 -arch x86_64
+ARCH_FLAGS=-arch x86_64
 
 .PHONY: build
 build: screenresolution
